@@ -9,7 +9,7 @@ class Student:
         self.grade = grade
         
     def get_grade(self):
-        print(self.grade)
+        return self.grade
         
     def display_student_info(self):
         try:
@@ -31,3 +31,4 @@ class Student:
                 學生性別 : {self.gender} 
                 學生成績 : {self.grade}"""
             )
+            
